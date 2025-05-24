@@ -1,6 +1,6 @@
 # Containers Starter
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/mikenomitch/templates/tree/main/hello-world-containers-template)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/mikenomitch/templates/tree/main/hello-world-containers)
 
 <!-- dash-content-start -->
 
@@ -13,7 +13,7 @@ It demonstrates basic Container coniguration, launching and routing to individua
 Outside of this repo, you can start a new project with this template using [C3](https://developers.cloudflare.com/pages/get-started/c3/) (the `create-cloudflare` CLI):
 
 ```bash
-npm create cloudflare@latest -- --template=mikenomitch/templates/hello-world-containers-template
+npm create cloudflare@latest -- --template=mikenomitch/hello-world-containers
 ```
 
 ## Getting Started
