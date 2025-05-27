@@ -1,7 +1,7 @@
 {
 	"name": "hello-world-containers-template",
 	"description": "Build a Container-enabled Worker",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
