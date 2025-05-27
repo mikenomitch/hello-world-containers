@@ -1,6 +1,6 @@
 # Containers Starter
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/mikenomitch/templates/tree/main/hello-world-containers)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/mikenomitch/hello-world-containers)
 
 <!-- dash-content-start -->
 
