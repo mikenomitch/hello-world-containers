@@ -1,8 +1,8 @@
-import { Container, loadBalance, getContainer } from 'cf-containers';
+import { Container, loadBalance, getContainer } from '@cloudflare/containers';
 
 export class MyContainer extends Container {
   defaultPort = 8080;
-  sleepAfter = '10s';
+  sleepAfter = '2m';
   envVars = {
     MESSAGE: 'I was passed in via the container class!',
   };
@@ -30,7 +30,7 @@ export default {
     // To route requests to a specific container,
     // pass a unique container identifier to .get()
     if (pathname.startsWith('/container')) {
-      let id = env.MY_CONTAINER.idFromName('container');
+      let id = env.MY_CONTAINER.idFromName(pathname);
       let container = env.MY_CONTAINER.get(id);
       return await container.fetch(request);
     }

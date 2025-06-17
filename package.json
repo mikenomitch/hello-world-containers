@@ -1,7 +1,7 @@
 {
 	"name": "hello-world-containers-template",
 	"description": "Build a Container-enabled Worker",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
@@ -15,19 +15,19 @@
 		"wrangler": "^4.17.0"
 	},
 	"dependencies": {
-		"cf-containers": "0.0.7"
+		"@cloudflare/containers": "^0.0.4"
 	},
 	"cloudflare": {
-    "label": "Containers Starter",
-    "products": [
-      "Workers",
-      "Durable Objects",
+		"label": "Containers Starter",
+		"products": [
+			"Workers",
+			"Durable Objects",
 			"Containers"
-    ],
-    "categories": [],
-    "icon_urls": [
-      "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/5ca0ca32-e897-4699-d4c1-6b680512f000/public"
-    ],
-    "preview_image_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/fc7b4b62-442b-4769-641b-ad4422d74300/public"
-  }
+		],
+		"categories": [],
+		"icon_urls": [
+			"https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/5ca0ca32-e897-4699-d4c1-6b680512f000/public"
+		],
+		"preview_image_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/fc7b4b62-442b-4769-641b-ad4422d74300/public"
+	}
 }
