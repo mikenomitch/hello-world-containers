@@ -38,8 +38,7 @@ export default {
     // This route forces a panic in the container.
     // This will cause the onError hook to run
     if (pathname.startsWith('/error')) {
-      let id = env.MY_CONTAINER.idFromName('error-test');
-      let container = env.MY_CONTAINER.get(id);
+      let container = getContainer(env.MY_CONTAINER, 'error-test');
       return await container.fetch(request);
     }
 
@@ -57,7 +56,7 @@ export default {
     }
 
     return new Response(
-      'Call /container/<ID> to start a container for each ID with a 10s timeout.\nCall /lb to load balancing over multiple containers\nCall /error to start a container that errors\nCall /singleton to get a single specific container'
+      'Call /container/<ID> to start a container for each ID with a 2m timeout.\nCall /lb to load balancing over multiple containers\nCall /error to start a container that errors\nCall /singleton to get a single specific container'
     );
   },
 };

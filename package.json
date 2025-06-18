@@ -1,7 +1,7 @@
 {
 	"name": "hello-world-containers-template",
 	"description": "Build a Container-enabled Worker",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
@@ -12,10 +12,10 @@
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20250506.0",
 		"typescript": "^5.5.2",
-		"wrangler": "^4.17.0"
+		"wrangler": "https://pkg.pr.new/wrangler@9605"
 	},
 	"dependencies": {
-		"@cloudflare/containers": "^0.0.4"
+		"@cloudflare/containers": "^0.0.5"
 	},
 	"cloudflare": {
 		"label": "Containers Starter",
